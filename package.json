@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node src/app.js",
     "dev": "nodemon src/app.js",
     "migrations:generate": "sequelize-cli migration:generate --name",
     "migrations:run": "sequelize-cli db:migrate",
@@ -23,6 +24,7 @@
     "passport-jwt": "^4.0.1",
     "passport-local": "^1.0.0",
     "pg": "^8.11.0",
+    "railway": "^2.0.17",
     "sequelize": "^6.31.1"
   },
   "devDependencies": {
